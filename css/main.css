@@ -1,0 +1,22 @@
+html {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.quote {
+  font-family: 'Playfair Display', serif;
+  top: 40%;
+  left: 15%;
+}
+
+.author {
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 45em) {
+
+  .author {
+    visibility: visible;
+  }
+
+
+}
