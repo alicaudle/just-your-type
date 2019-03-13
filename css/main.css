@@ -4,19 +4,51 @@ html {
 
 .quote {
   font-family: 'Playfair Display', serif;
-  top: 40%;
-  left: 15%;
+  top: 20%;
+  left: 5%;
+  right: 5%;
 }
 
 .author {
   visibility: hidden;
+  opacity: 0.3;
+  color: #be96eb;
 }
 
-@media only screen and (min-width: 45em) {
+.unit {
+  opacity: 0.4;
+  color: #8aded3;
+}
+
+p:nth-child(3) {
+  left: 10%;
+  right: 10%;
+}
+
+.snow {
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 38em) {
 
   .author {
     visibility: visible;
+    max-width: 100%;
   }
 
+  .quote {
+    top: 50%;
+  }
+
+  .unit {
+    visibility: hidden;
+  }
+
+  .snow {
+    visibility: visible;
+    opacity: 0.4;
+    color: #8aded3;
+    top: 10%;
+  }
 
 }
