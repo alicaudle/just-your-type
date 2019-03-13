@@ -29,6 +29,13 @@ p:nth-child(3) {
   visibility: hidden;
 }
 
+.flake1, .flake2,
+.flake3, .flake4 {
+  visibility: hidden;
+  opacity: 0.4;
+  color: #50c9fb;
+}
+
 @media only screen and (min-width: 38em) {
 
   .author {
@@ -49,6 +56,46 @@ p:nth-child(3) {
     opacity: 0.4;
     color: #8aded3;
     top: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  .flake1 {
+    visibility: visible;
+    top: 1%;
+    left: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 45em) {
+
+  .flake2 {
+    visibility: visible;
+    bottom: 20%;
+    left: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  .flake3 {
+    visibility: visible;
+    bottom: 10%;
+    right: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 55em) {
+
+  .flake4 {
+    visibility: visible;
+    bottom: -10;
+    left: 50%;
   }
 
 }
