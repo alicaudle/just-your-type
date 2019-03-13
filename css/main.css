@@ -32,7 +32,7 @@ p:nth-child(3) {
 .flake1, .flake2,
 .flake3, .flake4 {
   visibility: hidden;
-  opacity: 0.4;
+  opacity: .4;
   color: #50c9fb;
 }
 
