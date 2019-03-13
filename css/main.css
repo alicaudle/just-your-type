@@ -94,7 +94,7 @@ p:nth-child(3) {
 
   .flake4 {
     visibility: visible;
-    bottom: -10;
+    bottom: -10rem;
     left: 50%;
   }
 
