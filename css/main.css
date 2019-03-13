@@ -3,7 +3,7 @@ html {
 }
 
 .quote {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   top: 20%;
   left: 5%;
   right: 5%;
@@ -29,8 +29,7 @@ p:nth-child(3) {
   visibility: hidden;
 }
 
-.flake1, .flake2,
-.flake3, .flake4 {
+.flake1, .flake2, .flake3, .flake4 {
   visibility: hidden;
   opacity: .4;
   color: #50c9fb;
